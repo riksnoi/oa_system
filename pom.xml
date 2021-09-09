@@ -6,11 +6,15 @@
 
     <groupId>com.sky</groupId>
     <artifactId>oa</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-
+    <modules>
+        <module>oa_dao</module>
+        <module>oa_biz</module>
+        <module>oa_web</module>
+    </modules>
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <spring.version>4.0.2.RELEASE</spring.version>
     </properties>
 
 </project>
