@@ -15,4 +15,6 @@ public interface EmployeeDao {
     Employee select(String sn);
     List<Employee> selectAll();
     List<Employee> selectByDepartmentAndPost(@Param("dsn") String dsn, @Param("post") String post);
+
+    Employee add(String sn);
 }
